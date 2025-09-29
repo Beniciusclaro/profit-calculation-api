@@ -1,7 +1,7 @@
 package com.dachser.profit_calculation_api.controllers;
 
-import com.dachser.profit_calculation_api.domains.ProfitCalculatorResponse;
-import com.dachser.profit_calculation_api.domains.ShipmentRequest;
+import com.dachser.profit_calculation_api.entities.dtos.ProfitCalculatorResponse;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentRequest;
 import com.dachser.profit_calculation_api.services.ProfitCalculatorService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

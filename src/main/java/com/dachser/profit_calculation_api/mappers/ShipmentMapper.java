@@ -1,9 +1,9 @@
 package com.dachser.profit_calculation_api.mappers;
 
-import com.dachser.profit_calculation_api.domains.Customer;
-import com.dachser.profit_calculation_api.domains.Shipment;
-import com.dachser.profit_calculation_api.domains.ShipmentRequest;
-import com.dachser.profit_calculation_api.domains.ShipmentResponse;
+import com.dachser.profit_calculation_api.entities.domains.Customer;
+import com.dachser.profit_calculation_api.entities.domains.Shipment;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentRequest;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentResponse;
 
 public class ShipmentMapper {
 

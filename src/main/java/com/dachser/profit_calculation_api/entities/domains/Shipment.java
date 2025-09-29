@@ -1,7 +1,6 @@
-package com.dachser.profit_calculation_api.domains;
+package com.dachser.profit_calculation_api.entities.domains;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
 import java.math.BigDecimal;

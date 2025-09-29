@@ -1,6 +1,10 @@
 package com.dachser.profit_calculation_api.services;
 
-import com.dachser.profit_calculation_api.domains.*;
+import com.dachser.profit_calculation_api.entities.domains.Customer;
+import com.dachser.profit_calculation_api.entities.domains.ProfitCalculator;
+import com.dachser.profit_calculation_api.entities.dtos.ProfitCalculatorResponse;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentRequest;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentResponse;
 import com.dachser.profit_calculation_api.exceptions.CustomerException;
 import com.dachser.profit_calculation_api.repository.CustomerRepository;
 import com.dachser.profit_calculation_api.repository.ProfitCalculatorRepository;

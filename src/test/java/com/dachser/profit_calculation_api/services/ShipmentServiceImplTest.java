@@ -1,8 +1,8 @@
 package com.dachser.profit_calculation_api.services;
 
-import com.dachser.profit_calculation_api.domains.Customer;
-import com.dachser.profit_calculation_api.domains.Shipment;
-import com.dachser.profit_calculation_api.domains.ShipmentResponse;
+import com.dachser.profit_calculation_api.entities.domains.Customer;
+import com.dachser.profit_calculation_api.entities.domains.Shipment;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentResponse;
 import com.dachser.profit_calculation_api.repository.ShipmentRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

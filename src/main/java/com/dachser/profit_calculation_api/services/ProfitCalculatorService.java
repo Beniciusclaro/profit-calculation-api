@@ -1,7 +1,7 @@
 package com.dachser.profit_calculation_api.services;
 
-import com.dachser.profit_calculation_api.domains.ProfitCalculatorResponse;
-import com.dachser.profit_calculation_api.domains.ShipmentRequest;
+import com.dachser.profit_calculation_api.entities.dtos.ProfitCalculatorResponse;
+import com.dachser.profit_calculation_api.entities.dtos.ShipmentRequest;
 
 import java.util.List;
 

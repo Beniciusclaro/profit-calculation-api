@@ -1,4 +1,4 @@
-package com.dachser.profit_calculation_api.domains;
+package com.dachser.profit_calculation_api.entities.dtos;
 
 import java.math.BigDecimal;
 

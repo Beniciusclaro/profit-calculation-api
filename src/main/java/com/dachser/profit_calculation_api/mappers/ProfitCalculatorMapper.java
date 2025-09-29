@@ -1,7 +1,7 @@
 package com.dachser.profit_calculation_api.mappers;
 
-import com.dachser.profit_calculation_api.domains.ProfitCalculator;
-import com.dachser.profit_calculation_api.domains.ProfitCalculatorResponse;
+import com.dachser.profit_calculation_api.entities.domains.ProfitCalculator;
+import com.dachser.profit_calculation_api.entities.dtos.ProfitCalculatorResponse;
 
 public class ProfitCalculatorMapper {
 

@@ -1,4 +1,4 @@
-package com.dachser.profit_calculation_api.domains;
+package com.dachser.profit_calculation_api.entities.domains;
 
 import jakarta.persistence.*;
 import lombok.*;
