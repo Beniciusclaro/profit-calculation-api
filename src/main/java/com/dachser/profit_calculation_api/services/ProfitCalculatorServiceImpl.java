@@ -15,14 +15,14 @@ import static com.dachser.profit_calculation_api.mappers.ProfitCalculatorMapper.
 import static com.dachser.profit_calculation_api.mappers.ShipmentMapper.requestToEntity;
 
 @Service
-public class profitCalculatorServiceImpl implements ProfitCalculatorService{
+public class ProfitCalculatorServiceImpl implements ProfitCalculatorService{
 
     private final CustomerRepository customerRepository;
 
     private final ShipmentService shipmentService;
     private final ProfitCalculatorRepository profitCalculatorRepository;
 
-    public profitCalculatorServiceImpl(CustomerRepository customerRepository, ShipmentService shipmentService, ProfitCalculatorRepository profitCalculatorRepository) {
+    public ProfitCalculatorServiceImpl(CustomerRepository customerRepository, ShipmentService shipmentService, ProfitCalculatorRepository profitCalculatorRepository) {
         this.customerRepository = customerRepository;
         this.shipmentService = shipmentService;
         this.profitCalculatorRepository = profitCalculatorRepository;

@@ -30,7 +30,7 @@ public class ProfitCalculatorServiceImplTest {
     @Mock
     private ProfitCalculatorRepository profitCalculatorRepository;
     @InjectMocks
-    private profitCalculatorServiceImpl service;
+    private ProfitCalculatorServiceImpl service;
 
     @Test
     void testCalculateShipment_Success() {
