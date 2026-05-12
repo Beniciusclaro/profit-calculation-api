@@ -1,0 +1,11 @@
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-database
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: profit-calculation
+      MYSQL_ROOT_PASSWORD: root
